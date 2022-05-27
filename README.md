@@ -22,3 +22,6 @@ The solution is available in the `solution` branch to compare, when you have fin
 A Kotlin version that takes advantage of [reactor-kotlin-extensions](https://github.com/reactor/reactor-kotlin-extensions) is available [here](https://github.com/eddumelendez/reactor-kotlin-workshop).
  
 More information available on [Reactor website](https://projectreactor.io).
+
+## Tests passed evidence
+![tests-passed](https://user-images.githubusercontent.com/64755135/170690602-3fdc90f1-d672-49f3-85b9-5802589ea052.png)
