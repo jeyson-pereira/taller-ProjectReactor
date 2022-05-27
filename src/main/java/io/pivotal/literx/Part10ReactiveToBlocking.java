@@ -5,24 +5,24 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 /**
- * Learn how to turn Reactive API to blocking one.
+ * Solved how to turn Reactive API to blocking one.
  *
- * @author Sebastien Deleuze
+ * @author Jeyson Pereira
  */
 public class Part10ReactiveToBlocking {
 
 //========================================================================================
 
-	// TODO Return the user contained in that Mono
+	// Return the user contained in that Mono
 	User monoToValue(Mono<User> mono) {
-		return null;
+		return mono.block();
 	}
 
 //========================================================================================
 
-	// TODO Return the users contained in that Flux
+	// Return the users contained in that Flux
 	Iterable<User> fluxToValues(Flux<User> flux) {
-		return null;
+		return flux.toIterable();
 	}
 
 }
